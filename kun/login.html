@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | The Sandy Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://thesandymedia.com/wp-content/uploads/2023/07/cropped-Sandymedia-300x54.png" alt="The Sandy Media Logo">
+            <nav>
+                <a href="https://thesandymedia.com/index.php/contact/">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Left Section with Image/Illustration -->
+        <div class="left-section">
+            <img src="i.jpeg" alt="Illustration" class="left-image">
+            <h2>Sweet perks and even sweeter discounts</h2>
+            <p>Made for remote teams everywhere.</p>
+            <button class="learn-more">Learn more</button>
+        </div>
+
+        <!-- Login Container -->
+        <div class="login-container">
+            <form class="login-form">
+                <button type="button" class="google-sign-in-button">Log in using Google</button>
+                <div class="or">---- OR ----</div>
+                <div class="input-group">
+                    <label for="username">Email</label>
+                    <input type="text" id="username" name="username" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <div class="password-wrapper">
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <span class="toggle-password" onclick="togglePassword()">
+                            <img src="https://cdn-icons-png.flaticon.com/128/6814/6814728.png" alt="Show/Hide Password">
+                        </span>
+                    </div>
+                </div>
+                <button type="submit">Log In</button>
+                <p class="signup-link">Need to create an account? <a href="registrationpage.html">Sign up here!</a></p>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733558.png" alt="Instagram">
+                    </a>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 The Sandy Media. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

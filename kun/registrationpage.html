@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | The Sandy Media</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://thesandymedia.com/wp-content/uploads/2023/07/cropped-Sandymedia-300x54.png" alt="The Sandy Media Logo">
+            <nav>
+                <a href="https://thesandymedia.com/index.php/contact/">Contact</a>
+               
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div id="login-box">
+            <div class="left">
+                <h1>Sign up</h1>
+                <input type="text" id="username" name="username" placeholder="Username" required />
+                <input type="email" id="email" name="email" placeholder="E-mail" required />
+                <input type="password" id="password" name="password" placeholder="Password" required />
+                <input type="password" id="password2" name="password2" placeholder="Retype password" required />
+                <input type="submit" name="signup_submit" value="Signup" onclick="validateRegistrationForm()" />
+                <a href="login.html">All ready have a account?</a>
+            </div>
+            
+            <div class="right">
+                <span class="loginwith">Sign in with</span>
+                <button class="social-signin google">Log in with Google</button>
+            </div>
+            
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <p>&copy; 2024 The Sandy Media. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="registration.js"></script>
+</body>
+</html>
